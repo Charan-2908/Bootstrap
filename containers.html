@@ -1,19 +1,27 @@
 <!DOCTYPE html>
 <html lang="en">
+
 <head>
-    <meta charset="UTF-8">
-    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
     <title>Document</title>
-    <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.2/dist/css/bootstrap.min.css" rel="stylesheet" integrity="sha384-T3c6CoIi6uLrA9TneNEoa7RxnatzjcDSCmG1MXxSR1GAsXEV/Dwwykc2MPK8M2HN" crossorigin="anonymous">
-    <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.2/dist/js/bootstrap.bundle.min.js" integrity="sha384-C6RzsynM9kWDrMNeT87bh95OGNyZPhcTNXj1NW7RuBCsyN/o0jlpcV8Qyq46cDfL" crossorigin="anonymous"></script>
-    <link rel="stylesheet" href="./style.css">
+    <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.2/dist/css/bootstrap.min.css" rel="stylesheet"
+        integrity="sha384-T3c6CoIi6uLrA9TneNEoa7RxnatzjcDSCmG1MXxSR1GAsXEV/Dwwykc2MPK8M2HN" crossorigin="anonymous" />
+    <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.2/dist/js/bootstrap.bundle.min.js"
+        integrity="sha384-C6RzsynM9kWDrMNeT87bh95OGNyZPhcTNXj1NW7RuBCsyN/o0jlpcV8Qyq46cDfL"
+        crossorigin="anonymous"></script>
+    <link rel="stylesheet" href="./style.css" />
 </head>
+
 <body>
     <div class="container">
         <h1>Learning bootstrap</h1>
         <div class="container p-5 my-5 border bg-primary text-white">
             <h1>Starting bootstrap</h1>
-            <p>Lorem ipsum dolor sit amet, consectetur adipisicing elit. Perferendis, commodi?</p>
+            <p>
+                Lorem ipsum dolor sit amet, consectetur adipisicing elit. Perferendis,
+                commodi?
+            </p>
         </div>
 
         <div class="container-lg">
@@ -33,12 +41,12 @@
         <div class="col-4 p-3">Col</div>
         <div class="col-4 p-3">Col</div>
     </div>
-    
+
     <p class="h1 display-1">h1 bootstrap heading</p>
     <h1>h1 bootstrap heading</h1>
     <p class="h2">h2 bootstrap heading</p>
     <h2>h2 bootstrap heading</h2>
-    <p class="h3">h3 bootstrap <mark>heading</mark> </p>
+    <p class="h3">h3 bootstrap <mark>heading</mark></p>
     <h3>h3 bootstrap heading</h3>
     <p class="h4">h4 bootstrap heading</p>
     <h4>h4 bootstrap heading</h4>
@@ -46,7 +54,11 @@
     <h5>h5 bootstrap heading</h5>
     <p class="h6 display-6">h6 bootstrap <small>heading</small></p>
     <h6>h6 bootstrap heading</h6>
-    <p>The <abbr title="World Health Organization">WHO</abbr> was founded in 1948.</p><br>
+    <p>
+        The <abbr title="World Health Organization">WHO</abbr> was founded in
+        1948.
+    </p>
+    <br />
     <footer class="blockquote-footer">From Charan's Website</footer>
 
     <table class="table table-borderless">
@@ -86,28 +98,102 @@
         </tbody>
     </table>
 
-    <img src="https://picsum.photos/300" class="mx-auto d-block rounded-circle img-fluid"> <br>
-    <img src="https://picsum.photos/200" class="float-end"> 
-    <img src="https://picsum.photos/250" class="img-thumbnail">
+    <img src="https://picsum.photos/300" class="mx-auto d-block rounded-circle img-fluid" />
+    <br />
+    <img src="https://picsum.photos/200" class="float-end" />
+    <img src="https://picsum.photos/250" class="img-thumbnail" />
 
     <div class="alert alert-danger">
         <strong>Danger.!</strong> Yupp... You're in Danger.
     </div>
 
     <div class="alert alert-success">
-        <strong>Congrats..!</strong> Yupp... You're Safe. <a href="#" class="alert-link">Check your status.</a>
+        <strong>Congrats..!</strong> Yupp... You're Safe.
+        <a href="#" class="alert-link">Check your status.</a>
     </div>
 
     <div class="alert alert-info alert-dismissible">
-        <strong>Congrats..!</strong> Yupp... You're Safe. <a href="#" class="alert-link">Check your status.</a>
+        <strong>Congrats..!</strong> Yupp... You're Safe.
+        <a href="#" class="alert-link">Check your status.</a>
         <button type="button" class="btn-close" data-bs-dismiss="alert"></button>
     </div>
 
     <div class="alert alert-warning alert-dismissible show fade">
-        <strong>Warning..!</strong> Yupp... You're not Safe. <a href="#" class="alert-link">Check your status.</a>
+        <strong>Warning..!</strong> Yupp... You're not Safe.
+        <a href="#" class="alert-link">Check your status.</a>
         <button type="button" class="btn-close" data-bs-dismiss="alert"></button>
     </div>
 
+    <button type="button" class="btn btn-success">Press Here</button>
+    <button type="button" class="btn btn-info btn-link">Press Here</button>
 
+    <input type="button" value="Submit" class="btn btn-success" />
+    <input type="Reset" value="Reset" class="btn btn-outline-warning" />
+    <input type="submit" value="Large" class="btn btn-outline-danger btn-lg" />
+    <input type="submit" value="Large" class="btn btn-outline-secondary btn-sm" />
+    <hr>
+
+    <div class="d-grid gap-3">
+        <button type="button" class="btn btn-primary btn-block">
+            Full width button
+        </button>
+        <button type="button" class="btn btn-danger btn-block">
+            Full width button
+        </button>
+        <button type="button" class="btn btn-warning btn-block">
+            Full width button
+        </button>
+    </div>
+    <br />
+    <button type="button" class="btn btn-light active">Active</button>
+    <button type="button" class="btn btn-light">Active</button>
+    <button type="button" class="btn btn-primary" disabled>Active</button>
+    <a href="#" class="btn btn-primary disabled">Disabled</a>
+
+    <div class="btn-group">
+        <button class="btn btn-danger">
+            <span class="spinner-border-sm spinner-border"></span>
+            Loading..
+        </button>
+
+        <button class="btn btn-danger">
+            <span class="spinner-grow spinner-grow-sm"></span>
+            Loading..
+        </button>
+
+        <button class="btn btn-danger">
+            <span class="spinner-grow spinner-grow-sm"></span>
+        </button>
+
+        <button class="btn btn-warning">
+            <span class="spinner-border spinner-border-sm"></span>
+        </button>
+    </div>
+
+    <div class="d-grid mt-3">
+        <button type="button" class="btn btn-block btn-dark">
+            <span class="spinner-border spinner-border-sm"></span>
+            Loading.. Please Wait
+        </button>
+    </div>
+    <hr>
+    <div class="btn-group-vertical">
+        <button type="button" class="btn btn-secondary">Apple</button>
+        <button type="button" class="btn btn-secondary">Samsung</button>
+        <button type="button" class="btn btn-secondary">Realme</button>
+    </div>
+    <hr>
+    <div class="btn-group">
+        <button type="button" class="btn btn-outline-warning">Mercedes</button>
+        <button type="button" class="btn btn-outline-warning">Mercedes</button>
+        <div class="btn-group">
+            <button type="button" class="btn btn-outline-success dropdown-toggle" data-bs-toggle="dropdown">Sony</button>
+            <div class="dropdown-menu">
+                <a href="#" class="dropdown-item">Tablet</a>
+                <a href="#" class="dropdown-item">Mobiles</a>
+            </div>
+        </div>
+    </div>
 </body>
+
 </html>
